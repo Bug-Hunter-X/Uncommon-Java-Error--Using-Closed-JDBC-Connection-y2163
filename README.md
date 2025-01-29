@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error scenario in Java.  The `UncommonErrorExample.java` file showcases a JDBC connection being used after it's closed, which leads to a `SQLException`. The solution, provided in `UncommonErrorSolution.java`, addresses this by ensuring the connection is checked for closure before further operations.
